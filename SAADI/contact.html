@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  width: 100%;
+  height: 75px;
+  padding: 0px 100px;
+  line-height: 75px;
+  position: fixed;
+  background-color:rgb(244,245,249);
+
+}
+nav ul{
+  float: right;
+}
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+nav li a{
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color:rgb(141,189,194);
+  text-decoration: none;
+}
+nav li a:hover{
+  color: gold;
+}
+* {
+          box-sizing: border-box;
+        }
+        
+        /* Style inputs */
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid rgb(57,189,188);
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: rgb(247, 186, 3);
+          color:black;
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: rgb(57, 188, 189);
+        }
+        
+        /* Style the container/contact section */
+        .container {
+          border-radius: 5px;
+          
+          padding: 10px;
+        }
+        
+        /* Create two columns that float next to eachother */
+        .column {
+          float: left;
+          width: 50%;
+          margin-top: 6px;
+          padding: 20px;
+          color: rgb(136,138,136);
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+          }
+        }
+        ul{
+    text-align: center;
+  }
+  .media{
+    align-items: center;
+    transform: translate(-53% -50%);
+  }
+  li{
+    list-style: none;
+    margin: 1px 1px;
+    display: inline-block;
+    font-size: 2px;
+    padding: 5px 5px;
+    color: #fff;
+    text-align: center;
+
+  }
+  h3{
+    text-align: center;
+    color: rgb(58,184,183);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+    font-size: 18px;
+  }
+  .footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+.always{
+    margin-left: 200px;
+}
+.panam{
+    margin-left: 230px;
+}
+.mry{
+    color: rgb(57, 188, 189);
+    font-size: 18px;
+  }
+  .mry2{
+    color: rgb(247, 186, 3);
+  }
+  h4{
+    color: rgb(57, 188, 189);
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .wrapper{
+    /* background-color: rgb(27, 116, 96); */
+    margin-top: 0px;
+  }    
+  .agency{
+    color: rgb(136,138,136); 
+    font-size: 20px;
+    font-weight: 300;
+  }
+.bheem{
+  text-align: center;
+  color: rgb(161, 158, 158);
+}
+.media img a:hover{
+ transform: translate(0, -10%);
+ transition: 1.s;
+ color: aqua;
+}
+
+</style>
+</head>
+<body>
+     <!-- navbar -->
+     <div class="butterfly_slogan" style=" margin-left: 0px; background-color: rgb(57,189,188); border: solid 1px; color: rgb(221,221,221);">
+        <p style="font-size: 25px; color: white; text-align: center; align-self: hover;">" Cultural Tour Since 2007 "</p>
+    
+       </div>
+       <nav>
+         <a href="Home.html">
+             <img src="cuba2.png" style="width: 150x; height: 80px; padding: 10px;">
+         </a>
+         <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="Tours.html">Tour</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="group.html">Groups</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+         </ul>
+       </nav>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+    <div class="row">
+        <div class="column">
+          <img src="70.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <br>
+      <br>
+      <footer>
+        <div class="wrapper">
+         <h3>FOLLOW US AT:</h3>
+         <div class="media">
+             <ul>
+                 <li>
+                     <a href="#"><img src="57.png" alt="">
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="187t.png" alt="">
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="189i.png" alt="">
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""> <img src="die.png" alt="">
+                     </a>
+                 </li>
+                 <br>
+                <p class="mry"> Contact: 03145043657</p>
+                <p class="mry2">saad.abdullah3050@gmail.com</p>
+               <h4>knowcuba.com</h4>
+               <br>
+               <br>
+               <h2 class="agency">OUR PARTNER AGENCIES</h2>
+             </ul>
+             <img class="always" src="allways.png" alt="">
+             <img class="panam" src="panamerican.png" alt="">
+         </div>
+        </div>
+         </div>
+         <p class="bheem">Alright reserved.@copyright by cuba</p>
+       </footer>
+        
+           
+         
+     
+    
+</body>
+</html>
